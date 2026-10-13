@@ -1,0 +1,267 @@
+body{
+  margin: 0%;
+  background-color: #dcdcf3;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.home{
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.firsttop-area{
+  position: relative;
+  width: 900px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.whole-cake{
+  width: 680px;
+  max-width: 100%;
+  max-height: 50vh;
+  object-fit: contain;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+.menu-item img {
+  width: 90px;
+}
+
+.menu-item span {
+  background-color: #ffd968;
+  border: 4px dashed black;
+  border-radius: 12px;
+  padding: 14px 28px;
+  font-family: "Finger Paint", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #625927;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 100px;
+  color: #4d3868;
+    font-family: "Jim Nightshade", cursive;
+  font-weight: normal;
+}
+
+.second-title {
+  margin-top: -20px;
+  font-family: "Finger Paint", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  transform: translateY(-30px);
+}
+
+.start-button {
+  display: inline-block;
+  margin-top: 15px;
+  color: #322642;
+}
+
+.start-button img {
+  width: 120px;
+}
+
+.start-button p {
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Finger Paint", sans-serif;
+}
+
+/* Ingredients */
+
+.Ingredients-page {
+  min-height: 100vh;
+  background-color: #fffdd6;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Ingredients-upper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Ingredients-home-button,
+.Instructions-instructions-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+
+.Ingredients-home-button img,
+.Instructions-instructions-button img {
+  width: 90px;
+}
+
+.Ingredients-home-button span,
+.Instructions-instructions-button span {
+  background-color: #ffd968;
+  border: 4px dashed black;
+  border-radius: 12px;
+  padding: 12px 28px;
+  font-family: "Finger Paint", sans-serif;
+  font-size: 26px;
+  color: #625927;
+}
+
+.piece-cake {
+  width: 360px;
+}
+
+.Ingredients-title {
+  font-family: "Jim Nightshade", cursive;
+  font-size: 45px;
+  color: #4d3868;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Ingredients-steps {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.Ingredients-food-title {
+  width: 23%;
+}
+
+.Ingredients-food-title h2 {
+  background-color: #dab8dc;
+  border-radius: 12px;
+  padding: 20px 10px;
+  font-family: "Finger Paint", sans-serif;
+  font-size: 18px;
+  color: #625927;
+  margin: 0 0 15px 0;
+}
+
+.Ingredients-make-steps {
+  background-color: #dcdcf3;
+  border-radius: 12px;
+  padding: 35px 30px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.Ingredients-make-steps ul {
+  margin: 0;
+  padding-left: 25px;
+  font-family: "Finger Paint", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #4d3868;
+}
+
+/* ========================
+   INSTRUCTIONS PAGE
+   ======================== */
+
+.Instructions-page {
+  min-height: 100vh;
+  background-color: #dcdcf3;
+  padding: 30px 60px 100px 60px;
+  box-sizing: border-box;
+}
+
+.Instructions-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 180px;
+}
+
+.Instructions-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.Instructions-button span {
+  background-color: #ffd968;
+  border: 4px dashed black;
+  border-radius: 12px;
+  padding: 7px 18px;
+  font-family: "Finger Paint", sans-serif;
+  font-size: 16px;
+  color: #625927;
+}
+
+.Instructions-button img {
+  width: 55px;
+}
+
+.Instructions-title {
+  text-align: center;
+  font-family: "Jim Nightshade", cursive;
+  font-size: 45px;
+  color: #4d3868;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.Instructions-step {
+  width: 650px;
+  max-width: 80%;
+  margin: 0 auto 25px auto;
+  background-color: #fffdd6;
+  border-radius: 12px;
+  padding: 30px 45px;
+  box-sizing: border-box;
+}
+
+.Instructions-step h2 {
+  font-family: "Finger Paint", sans-serif;
+  font-size: 26px;
+  color: #625927;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.Instructions-step p {
+  font-family: "Finger Paint", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d3868;
+  margin: 0;
+}
+
+.whole-cake:hover,
+.piece-cake:hover {
+  animation: cake-wiggle 0.6s ease-in-out;
+}
+
+@keyframes cake-wiggle {
+  0%   { transform: rotate(0deg) scale(1); }
+  25%  { transform: rotate(-4deg) scale(1.05); }
+  50%  { transform: rotate(4deg) scale(1.05); }
+  75%  { transform: rotate(-2deg) scale(1.03); }
+  100% { transform: rotate(0deg) scale(1); }
+}
